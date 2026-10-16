@@ -1,0 +1,9 @@
+
+/* local adjustments for the hosted copy */
+body { margin: 0; }
+/* the profile photo stays still: no zoom, no hover scale, no knock */
+.ph-photo img, .photo-frame img { transform: none !important; object-position: center top !important; transition: none !important; }
+.ph-photo.photo-frame:hover { transform: translate(-50%, -50%) !important; }
+.photo-frame:hover img { transform: none !important; }
+.photo-frame.knock { animation: none !important; }
+.cal-card .btn span:last-child { word-break: break-all; }
