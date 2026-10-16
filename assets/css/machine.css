@@ -1,6 +1,6 @@
 /* 3D project machine (Projects page) */
-#spread.mx { position: relative; width: 100%; height: clamp(520px, 100vh, 860px) !important; overflow: hidden; background: #000; color: #eef1f7;
-  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace; font-size: 13px; -webkit-font-smoothing: antialiased; contain: layout; border-radius: 24px; border: 1px solid var(--line); margin-bottom: clamp(40px, 6vw, 80px); }
+#spread.mx { position: relative; width: 100vw; margin-left: calc(50% - 50vw); height: clamp(520px, 100vh, 860px) !important; overflow: hidden; background: #000; color: #eef1f7;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace; font-size: 13px; -webkit-font-smoothing: antialiased; contain: layout; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: clamp(40px, 6vw, 80px); }
 #spread.mx *, #spread.mx *::before, #spread.mx *::after { box-sizing: border-box; }
 #spread.mx button { font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 #spread.mx button:focus-visible { outline: 2px solid #c3e41d; outline-offset: 4px; }
@@ -68,7 +68,7 @@
 .mx-error p { color: #9da1a8; margin: 8px 0 0; }
 .mx-error button { border: 1px solid #ffffff22; background: #25292e; padding: 8px 14px; border-radius: 5px; margin-top: 14px; }
 @media (max-width: 900px) {
-  #spread.mx { height: clamp(480px, 78vh, 700px) !important; border-radius: 18px; }
+  #spread.mx { height: clamp(480px, 78vh, 700px) !important; }
   .mx-topbar { inset: 18px 16px auto; }
   .mx-status span:last-child, .mx-coords, .mx-credit { display: none; }
   .mx-heading { left: 16px; right: 16px; top: 84px; font-size: 8px; letter-spacing: 1.3px; }
