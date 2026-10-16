@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr" data-lang="tr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammed Ubada Alioğlu — Mekatronik ve Otomasyon Mühendisi</title>
+<meta name="description" id="metaDescription" content="Muhammed Ubada Alioğlu — mekatronik ve otomasyon mühendisi. PLC, HMI ve SCADA projeleri.">
+<link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+<meta name="theme-color" content="#000000">
+<script>
+(function(){var h=document.documentElement;h.setAttribute('data-theme','dark');h.setAttribute('data-lang','tr');h.setAttribute('dir','ltr');
+try{if(!localStorage.getItem('theme'))localStorage.setItem('theme','dark');}catch(e){}
+window.I18N_OVERRIDE={};})();
+</script>
+<script src="assets/i18n/tr.js?v=6"></script>
+<script src="assets/js/i18n.js?v=10"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Italianno&family=Fira+Code:wght@700&family=Antic&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="assets/js/perf.js?v=1"></script>
+<link rel="stylesheet" href="assets/css/style.css?v=9">
+<link rel="stylesheet" href="assets/css/refine.css?v=16">
+<link rel="stylesheet" href="assets/css/showcase.css?v=54">
+<link rel="stylesheet" href="assets/css/local.css?v=1">
+<link rel="stylesheet" href="assets/css/machine.css?v=1">
+<script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js","three/addons/controls/OrbitControls.js":"./assets/vendor/OrbitControls.js","three/addons/geometries/RoundedBoxGeometry.js":"./assets/vendor/RoundedBoxGeometry.js","three/addons/utils/BufferGeometryUtils.js":"./assets/vendor/BufferGeometryUtils.js","three/addons/environments/RoomEnvironment.js":"./assets/vendor/RoomEnvironment.js"}}</script>
+</head>
+<body class="is-loading">
+
+<div id="site-loader">
+  <div class="signature-wrap" id="sigContainer">
+    <svg class="sig-svg" viewBox="0 0 772 317" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="sigClip"><path id="clipMaskPath" d=""></path></clipPath>
+        <linearGradient id="shineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="rgba(255,255,255,0)"></stop>
+          <stop offset="50%" stop-color="rgba(255,255,255,0.6)"></stop>
+          <stop offset="100%" stop-color="rgba(255,255,255,0)"></stop>
+        </linearGradient>
+      </defs>
+      <path id="drawingPath" class="premium-sig-stroke" d=""></path>
+      <path id="spinePath" fill="none" stroke="none" d=""></path>
+      <g id="glowPointer">
+        <circle r="6" fill="#ffffff" filter="drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 10px #ffffff)"></circle>
+      </g>
+      <g clip-path="url(#sigClip)">
+        <rect id="shineBar" x="-200" y="0" width="120" height="320"></rect>
+      </g>
+    </svg>
+    <div class="sig-counter-wrap">
+      <span class="sig-counter" id="loaderCounter">00</span>
+      <div class="sig-progress-bar"><div class="sig-progress-line" id="loaderLine"></div></div>
+    </div>
+  </div>
+</div>
+
+<div id="scrollBar" aria-hidden="true"></div>
+
+<header id="nav">
+  <a href="#top" class="nav-logo" data-cursor="home" aria-label="Home">
+    <span class="nav-logo-sig" id="navSignature"></span>
+  </a>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#news"><span>News</span></a>
+    <a href="#about"><span>About</span></a>
+    <a href="#skills"><span>Skills</span></a>
+    <a href="#experience"><span>Experience</span></a>
+    <a href="#projects"><span>Projects</span></a>
+    <a href="#certificates"><span>Certificates</span></a>
+    <a href="#education"><span>Education</span></a>
+    <a href="#contact"><span>Contact</span></a>
+  </nav>
+
+  <div class="nav-actions">
+    <button class="bell-btn" id="bellBtn" aria-label="Announcements" data-cursor="news">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path class="bell-body" d="M18 8a6 6 0 1 0-12 0c0 6-2 7-2 7h16s-2-1-2-7"/>
+        <path class="bell-clapper" d="M13.7 20a2 2 0 0 1-3.4 0"/>
+      </svg>
+      <span class="bell-badge" id="bellBadge" hidden>0</span>
+    </button>
+
+    <button class="sound-btn" id="soundBtn" aria-label="Sound" data-cursor="sound">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 5 6 9H3v6h3l5 4V5z"/>
+        <path class="wave w1" d="M15.5 8.5a5 5 0 0 1 0 7"/>
+        <path class="wave w2" d="M18.5 5.5a9 9 0 0 1 0 13"/>
+        <path class="mute" d="M16 9l5 6M21 9l-5 6"/>
+      </svg>
+      <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    </button>
+
+    <button class="switch ws tg" id="themeSwitch" aria-label="Switch between light and dark" data-cursor="flip">
+      <span class="tg-plate" aria-hidden="true">
+        <span class="tg-lamp"></span>
+        <span class="tg-mark on">I</span>
+        <span class="tg-nut"></span>
+        <span class="tg-lever"><i></i></span>
+        <span class="tg-mark off">O</span>
+      </span>
+      <span class="switch-spark" aria-hidden="true"></span>
+    </button>
+
+    <a class="btn btn-cv magnetic" id="cvButton" href="assets/files/cv-tr.pdf" target="_blank" rel="noopener" data-cursor="open">
+      <span class="btn-shine"></span>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
+      <span>CV</span>
+    </a>
+
+    <button class="nav-burger" id="navBurger" aria-label="Menu"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="ph" id="phStage">
+      <div class="ph-center">
+        <h1 class="ph-name" id="heroName">Muhammed Ubada</h1>
+        <div class="ph-photo photo-frame" id="photoFrame" data-cursor="">
+          <img id="profilePhoto" src="assets/img/profile.jpg" alt="Muhammed Ubada Alioğlu" width="258" height="436" decoding="async" fetchpriority="high">
+        </div>
+      </div>
+      <p class="ph-tagline" id="heroTagline">PLC · HMI · SCADA · Endüstriyel Otomasyon</p>
+      <a class="ph-scroll" href="#heroMore" aria-label="Scroll down">
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </div>
+
+    <div class="hero-inner hero-more" id="heroMore">
+      <div class="hero-text">
+        <p class="kicker reveal" id="heroAvailabilityChip" hidden><span class="dot"></span><span id="heroAvailability">Otomasyon pozisyonlarına açığım</span></p>
+        <h2 class="hero-role reveal">
+          <span class="typed" id="typedRole"></span><span class="caret"></span>
+        </h2>
+        <p class="hero-summary reveal" id="heroSummary"></p>
+
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary" data-cursor="view"><span class="btn-shine"></span><span>See the work</span></a>
+          <a href="#contact" class="btn btn-ghost" data-cursor="book"><span>Book a meeting</span></a>
+        </div>
+
+        <ul class="socials" id="socialList"></ul>
+      </div>
+    </div>
+
+    <ul class="stats" id="statList"></ul>
+  </section>
+
+  <section id="news" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="newsKicker">Yenilikler, doğrudan benden</p>
+      <h2 class="section-title" id="newsTitle">Duyurular</h2>
+    </header>
+    <div class="news-grid" id="newsGrid"></div>
+  </section>
+
+  <section id="about" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="aboutKicker">İmzanın arkasındaki kişi</p>
+      <h2 class="section-title" id="aboutTitle">Hakkımda</h2>
+    </header>
+    <div class="about-world">
+      <div class="about-left">
+      <div class="about-copy reveal" id="aboutCopy"></div>
+      <aside class="about-side reveal">
+        <div class="card glow tilt">
+          <h3>Languages</h3>
+          <ul class="lang-list" id="langList"></ul>
+        </div>
+        <div class="card glow tilt">
+          <h3>Contact</h3>
+          <ul class="contact-list" id="contactQuick"></ul>
+        </div>
+      </aside>
+      </div>
+      <div class="planet" id="planet"></div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="skillsKicker">Kullandığım teknolojiler</p>
+      <h2 class="section-title" id="skillsTitle">Yetenekler</h2>
+    </header>
+    <p class="bento-hint" id="bentoHint"></p>
+    <div class="skill-grid" id="skillGrid"></div>
+  </section>
+
+  <section id="experience" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="experienceKicker">Nerelerde iş çıkardım</p>
+      <h2 class="section-title" id="experienceTitle">Deneyim</h2>
+    </header>
+    <div class="jt" id="journey"></div>
+    <div class="jt-details" id="journeyDetails"></div>
+  </section>
+
+  <section id="projects" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="projectsKicker">Geliştirip ölçtüklerim</p>
+      <h2 class="section-title" id="projectsTitle">Projeler</h2>
+    </header>
+    <div class="ss" id="spread"></div>
+    <div class="pj-list" id="projectList"></div>
+  </section>
+
+  <section id="certificates" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="certificatesKicker"></p>
+      <h2 class="section-title" id="certificatesTitle">Certificates</h2>
+    </header>
+    <div class="ww" id="wheel"></div>
+  </section>
+
+  <section id="education" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="educationKicker">Akademik geçmiş</p>
+      <h2 class="section-title" id="educationTitle">Eğitim</h2>
+    </header>
+    <div class="lg" id="glass"></div>
+    <div class="edu-grid" id="eduGrid"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <header class="section-head reveal">
+      <p class="section-kicker" id="contactKicker">İletişim formu değil, bir saat ayır</p>
+      <h2 class="section-title" id="contactTitle">Konuşalım</h2>
+    </header>
+
+    <div class="contact-wrap">
+      <div class="contact-side reveal">
+        <p class="contact-note" id="calendarNote"></p>
+        <ul class="contact-list big" id="contactBig"></ul>
+        <ul class="socials wide" id="socialList2"></ul>
+      </div>
+      <div class="calendar-box reveal tilt" id="calendarBox"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="footer">
+  <div class="footer-sig" id="footerSignature" aria-hidden="true"></div>
+  <p id="footerNote">Muhammed Ubada Alioğlu tarafından tasarlandı ve imzalandı.</p>
+  <p class="footer-small">© <span id="year"></span> Muhammed Ubada Alioğlu. All rights reserved.</p>
+</footer>
+
+<div class="news-pop" id="newsPop" hidden>
+  <div class="news-pop-veil" data-news-close></div>
+  <section class="news-pop-card" role="dialog" aria-modal="true" aria-label="Announcements">
+    <header class="news-pop-head">
+      <span class="news-pop-title">Announcements</span>
+      <button class="news-pop-x" data-news-close aria-label="Close">×</button>
+    </header>
+    <div class="news-pop-list" id="newsPopList"></div>
+    <footer class="news-pop-foot">
+      <a href="#news" id="newsPopAll" data-news-close>Read them all</a>
+    </footer>
+  </section>
+</div>
+
+
+
+
+
+<div class="toast" id="toast" hidden><span id="toastText"></span></div>
+<div class="blackout" id="blackout" aria-hidden="true"></div>
+
+<script src="assets/js/sound.js?v=5"></script>
+<script src="assets/js/signature.js?v=6"></script>
+<script src="assets/js/loader.js?v=6"></script>
+<script src="assets/js/content.js?v=1"></script>
+<script src="assets/js/app.js?v=14"></script>
+<script src="assets/js/showcase.js?v=6"></script>
+<script src="assets/js/showcase2.js?v=7"></script>
+<script src="assets/js/showcase3.js?v=14"></script>
+<script src="assets/js/case.js?v=6"></script>
+<script src="assets/js/extras.js?v=20"></script>
+<script>document.getElementById("spread").dataset.machine="1";</script>
+<script type="module" src="assets/js/machine.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Muhammed Ubada Alioğlu
+Mechatronics engineer and Automation Engineer at Arkon Otomasyon, Konya, Türkiye.
+PLC programming (Siemens TIA Portal, Lenze PLC Designer / CODESYS, Structured Text), HMI design (TIA Portal, iX Developer, JMobile, WECON, Haiwell) and C# / WPF SCADA over OPC UA.
+Contact: alioglumuhammedubada@gmail.com · +90 537 778 14 07 · https://www.linkedin.com/in/muhammedubada
